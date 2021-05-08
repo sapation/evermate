@@ -1,0 +1,27 @@
+{
+  "name": "evermates-api-echo",
+  "version": "1.0.0",
+  "description": "This is the api for the media part of the evermate app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon media-server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://SumailaId@bitbucket.org/Evermates_LMS/evermates-api-echo.git"
+  },
+  "author": "iddrisu Sumaila",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Evermates_LMS/evermates-api-echo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5",
+    "multer": "^1.4.2",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
